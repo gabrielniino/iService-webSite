@@ -596,13 +596,12 @@ p {
 	margin: 0 5px;
 }
 
-#footer .social-item img {
-	filter: grayscale(1);
-	transition: 0.3s ease filter;
+#footer .social-item svg {
+	height: 4rem;
 }
 
-#footer .social-item:hover img {
-	filter: grayscale(0);
+#footer .social-item:hover svg .color000000 {
+	fill: #F29400;
 }
 
 #footer p {
