@@ -825,6 +825,10 @@ p {
 	#home .home_content {
 		margin: 10%;
 	}
+
+	.project-img {
+		display: none;
+	}
 }
 
 /* End  Media Query For Mobile */
