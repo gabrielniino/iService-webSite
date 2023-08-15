@@ -664,6 +664,10 @@ p {
 	}
 
 	/* home */
+	#home .home_content {
+		margin: 2.5%;
+	}
+
 	#home h1 {
 		font-size: 7rem;
 	}
@@ -814,3 +818,13 @@ p {
 }
 
 /* End  Media Query For Desktop */
+
+/* Media Query For Mobile */
+
+@media only screen and (max-width: 767px) {
+	#home .home_content {
+		margin: 10%;
+	}
+}
+
+/* End  Media Query For Mobile */
