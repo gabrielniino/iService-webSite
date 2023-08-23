@@ -266,12 +266,14 @@ img {
 }
 
 .input-field input {
+    outline: none;              
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #F29400;
     color: #fff;
     font-size: 20px;
     padding: 5px;
+    
 }
 
 .input-field input:focus {
