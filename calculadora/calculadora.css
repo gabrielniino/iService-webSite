@@ -28,9 +28,9 @@ p {
 }
 
 img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .brand h1 {
@@ -205,22 +205,22 @@ img {
     background-image: url(../img/background-lion2.jpg);
     color: white;
     background-size: cover;
-	background-position: right center;
-	position: relative;
-	z-index: 1;
-    
+    background-position: right center;
+    position: relative;
+    z-index: 1;
+
 }
 
 #container::after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-color: black;
-	opacity: 0.7;
-	z-index: -1;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
 }
 
 #calculator {
@@ -266,14 +266,22 @@ img {
 }
 
 .input-field input {
-    outline: none;              
+    outline: none;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #F29400;
     color: #fff;
     font-size: 20px;
     padding: 5px;
-    
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
 }
 
 .input-field input:focus {
@@ -289,21 +297,21 @@ img {
 }
 
 #calculate {
-	display: inline-block;
-	padding: 10px 30px;
-	color: white;
-	background-color: transparent;
-	border: 2px solid #F29400;
-	font-size: 2rem;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
-	transition: 0.3s ease;
-	transition-property: background-color, color;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #F29400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
 }
 
 #calculate:hover {
-	color: white;
-	background-color: #F29400;
+    color: white;
+    background-color: #F29400;
 }
 
 /* End Main section */
