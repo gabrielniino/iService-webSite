@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/calculadora/calculadora.css">
     <link rel="shortcut icon" href="/img/leao.png" type="image/x-icon">
     <title>Calculadora</title>
 </head>
@@ -37,6 +37,34 @@
         </div>
     </section>
     <!-- End Header -->
+
+    <!-- Main -->
+    <main id="container">
+        <div id="calculator">
+            <h2>
+                Calculadora de Imposto de Renda
+            </h2>
+
+            <div id="input_box">
+                <div class="input-field">
+                    <label for="value">Informe a renda:</label>
+                    <input type="number" id="value">
+                </div>
+            </div>
+
+            <div class="result">
+                <h4>Resultado:</h4>
+                <span id="result">
+                    -
+                </span>
+            </div>
+
+            <button id="calculate">
+                Calcular
+            </button>
+        </div>
+    </main>
+    <!-- Main -->
 
     <!-- Footer -->
     <section id="footer">
@@ -71,6 +99,8 @@
         </div>
     </section>
     <!-- End Footer -->
+
+    <script src="calculadora.js"></script>
 </body>
 
 </html>
