@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-:root {
-    --linear-gradient: linear-gradient(90deg, #38bdf8, #6d28d9, #4c1d95);
-}
-
 * {
 
     font-family: 'Poppins', sans-serif;
