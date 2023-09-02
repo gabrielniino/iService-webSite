@@ -31,9 +31,15 @@ document.getElementById('calculate').addEventListener('click', function () {
 
 	function calculateTaxStatus(value) {
 		if (value <= 1903.98) {
-			return "Isento de Imposto";
+			return "Isento da declaração";
+		} else if (value >= 1903.99 && value <= 2826.65) {
+			return "Você deve pagar: R$" + (value * 0.075).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+		} else if (value >= 2826.66 && value <= 3751.05) {
+			return "Você deve pagar: R$" + (value * 0.15).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+		} else if (value >= 3751.06 && value <= 4664.68) {
+			return "Você deve pagar: R$" + (value * 0.225).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
 		} else {
-			return "Você deve declarar I.R";
+			return "Você deve pagar: R$" + (value * 0.275).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
 		}
 	}
 
