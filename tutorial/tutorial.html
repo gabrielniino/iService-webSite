@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/calculadora/calculadora.css">
+    <link rel="stylesheet" href="/tutorial/tutorial.css">
     <link rel="shortcut icon" href="/img/leao.png" type="image/x-icon">
     <title>Leãozinho da iService</title>
 </head>
@@ -30,7 +29,7 @@
                         <li><a href="/index.html#projects" data-after="Projects">Blogger</a></li>
                         <li><a href="/index.html#about" data-after="About">Sobre</a></li>
                         <li><a href="/index.html#contact" data-after="Contact">Contato</a></li>
-                        <li><a id="calcule" href="/calculadora/calculadora.html" data-after="Calcule">Calcule</a></li>
+                        <li><a href="/calculadora/calculadora.html" data-after="Calcule">Calcule</a></li>
                         <li><a href="/tutorial/tutorial.html" data-after="Tutorial">Tutorial</a></li>
                     </ul>
                 </div>
@@ -39,33 +38,27 @@
     </section>
     <!-- End Header -->
 
-    <!-- Main -->
-    <main id="container">
-        <div id="calculator">
-            <h2>
-                Calculadora de Imposto de Renda
-            </h2>
-
-            <div id="input_box">
-                <div class="input-field">
-                    <label for="value">Informe a renda:</label>
-                    <input type="number" id="value">
-                </div>
-            </div>
-
-            <div class="result">
-                <h4>Resultado:</h4>
-                <span id="result">
-                    -
-                </span>
-            </div>
-
-            <button id="calculate">
-                Calcular
-            </button>
-        </div>
+    <main class="main">
+        <section class="instructions">
+            <h2>Passos para Declarar Imposto de Renda</h2>
+            <ol>
+                <li>Reúna todos os seus documentos fiscais, como comprovantes de renda, despesas dedutíveis e informes
+                    de bancos.</li>
+                <li>Acesse o site oficial da Receita Federal e faça o download do programa de declaração do imposto de
+                    renda.</li>
+                <li>Instale e abra o programa em seu computador.</li>
+                <li>Clique na opção "Nova Declaração" e escolha o tipo de declaração (simplificada ou completa).</li>
+                <li>Preencha todas as informações solicitadas, incluindo seus dados pessoais, renda, despesas dedutíveis
+                    e bens.</li>
+                <li>Verifique se todas as informações estão corretas e complete a declaração.</li>
+                <li>Envie a declaração para a Receita Federal. Você pode fazer isso pela internet ou entregá-la
+                    pessoalmente em uma agência.</li>
+                <li>Aguarde a análise da Receita Federal e, se necessário, faça as correções solicitadas.</li>
+                <li>Após a aprovação, imprima o comprovante de entrega e guarde-o junto com os documentos fiscais por
+                    pelo menos cinco anos.</li>
+            </ol>
+        </section>
     </main>
-    <!-- Main -->
 
     <!-- Footer -->
     <section id="footer">
@@ -101,7 +94,7 @@
     </section>
     <!-- End Footer -->
 
-    <script src="calculadora.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
