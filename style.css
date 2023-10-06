@@ -511,6 +511,19 @@ p {
 
 /* End About Section */
 
+#olivia .eterna {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0 0;
+}
+
+#olivia .eterna-top {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
 /* contact Section */
 #contact .contact {
 	flex-direction: column;
